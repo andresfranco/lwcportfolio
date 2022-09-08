@@ -1,0 +1,23 @@
+{
+    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
+    "routes": [
+        {
+            "id": "home",
+            "path": "/",
+            "rootComponent": "ui/app",
+            "layoutTemplate": "$layoutsDir/mainlayout.html"
+        },
+        {
+            "id": "charts",
+            "path": "/charts",
+            "rootComponent": "components/charts",
+            "layoutTemplate": "$layoutsDir/mainlayout.html"
+        },
+        {
+            "id": "planets",
+            "path": "/planets",
+            "rootComponent": "components/planet",
+            "layoutTemplate": "$layoutsDir/mainlayout.html"
+        }
+    ]
+}
